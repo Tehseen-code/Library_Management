@@ -13,6 +13,7 @@ abstract class Dvd(
         return daysLate*0.5
     }
 
+    //this is for display info
     override fun displayInfo(): String{
         return "${super.displayInfo()}, Director: $director, Duration: ${duration}min, Genre: $genre, Type: ${getItemType()}"
     }
