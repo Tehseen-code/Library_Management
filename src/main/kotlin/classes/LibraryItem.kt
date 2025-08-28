@@ -7,6 +7,8 @@ abstract class LibraryItem(
     var isAvailable: Boolean=true
 ){
 
+    abstract val category: String
+
     //this is for item type
     abstract fun getItemType(): String
 

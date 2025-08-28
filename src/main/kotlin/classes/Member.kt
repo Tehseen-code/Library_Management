@@ -1,8 +1,8 @@
 package org.example.classes
 
 class Member(
-    private val memberId: String,
-    private var name: String,
+    val memberId: String,
+    var name: String,
     private var email: String
 ) {
     //A list of items currently borrowed by member
