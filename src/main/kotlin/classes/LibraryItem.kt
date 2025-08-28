@@ -7,6 +7,7 @@ abstract class LibraryItem(
     var isAvailable: Boolean=true
 ){
 
+    //this is for item type
     abstract fun getItemType(): String
 
     abstract fun calculateFee(daysLate: Int): Double

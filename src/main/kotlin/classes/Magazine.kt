@@ -5,7 +5,7 @@ class Magazine(
     title: String,
     val issueNumber: Int,
     val publisher: String
-
+  // all variables
 ):LibraryItem(id , title){
 
     // Implement the abstract function to return the item type.

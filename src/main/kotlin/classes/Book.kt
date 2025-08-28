@@ -10,6 +10,7 @@ class Book(
 ):LibraryItem(id,title){
     override fun getItemType():String = "Book"
 
+    //this is for calculate days late fee
     override fun calculateFee(daysLate:Int): Double{
         return daysLate* 0.50
     }
